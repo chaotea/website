@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Merriweather");
+@font-face { font-family: 'icons'; src: url("../fonts/icons.ttf"); }
+
+html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	font-family: "Crimson Text", Helvetica, Arial, san-serif;
+	font-size: 24px;
+    background-image: linear-gradient(to top, #111111, rgba(34,21,13,0.2)), url(../images/main.jpg);
+    background-size: 100% 10%, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom, center;
+    background-color: #111111;
+}
+
+
+/* MAIN */
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+}
+
+.main ul {
+	list-style: none;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+	padding: 10vh 0px 0px 0px;
+}
+
+.portrait {
+	display: block;
+    width: 25%;
+	height: auto;
+	margin: auto;
+	border-radius: 50%;
+}
+
+@keyframes fadein {
+    0%		{ opacity: 0; }
+    100%	{ opacity: 1; }
+}
+
+.name {
+	display: block;
+	width: 40%;
+	height: auto;
+	margin: auto;
+    opacity: 0;
+	animation-name: fadein;
+	animation-duration: 4s;
+	/* animation-delay: 2s; */
+	animation-fill-mode: forwards;
+}
+
+.links {
+	margin-top: 5vh;
+	text-align: center;
+}
+
+.links a {
+	color: #FFFFFF;
+	transition: all 0.25s ease;
+}
+
+[class*="icon"]:before {
+	font-family: "icons";
+	font-style: normal;
+	font-weight: normal;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	font-size: 200%;
+	margin: 0.5rem;
+}
+
+.icon-facebook:before { content: '\E900'; }
+.icon-facebook:hover { color: #000000; transition: all 0.25s ease; }
+.icon-instagram:before { content: '\E901'; }
+.icon-instagram:hover { color: #000000; transition: all 0.25s ease; }
+.icon-twitter:before { content: '\E903'; }
+.icon-twitter:hover { color: #000000; transition: all 0.25s ease; }
+.icon-youtube:before { content: '\E904'; }
+.icon-youtube:hover { color: #000000; transition: all 0.25s ease; }
+.icon-github:before { content: '\EAB0'; }
+.icon-github:hover { color: #000000; transition: all 0.25s ease; }
+.icon-linkedin:before { content: '\E902'; }
+.icon-linkedin:hover { color: #000000; transition: all 0.25s ease; }
+
+
+/* CONTENT */
+
+.content {
+    margin: 0px;
+    padding: 20vh 25vw;
+    background-color: #111111;
+    color: #FFFFFF;
+    font-size: 100%;
+}
+
+.content h2 {
+    margin-top: 10vh;
+    font-family: "Merriweather", Helvetica, Arial, san-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.content p {
+    font-size: 100%;
+    font-weight: 100;
+}
+
+.content ul {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content ul li:before {
+	content: "—";
+}
+
+.content ul li a {
+    color: inherit;
+    text-decoration: none;
+    margin-left: 0.5rem;
+}
+
+.content ul li a:hover {
+    color: #111111;
+    background-color: #FFFFFF;
+    transition: all 0.25s ease;
+}
