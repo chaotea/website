@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text|Merriweather");
-@font-face { font-family: 'icons'; src: url("../fonts/icons.ttf"); }
+@font-face { font-family: "icons"; src: url("../fonts/icons.ttf"); }
 
 html {
 	height: 100%;
