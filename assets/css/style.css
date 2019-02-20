@@ -58,13 +58,13 @@ body {
 
 .arrow {
 	display: block;
-	margin-top: 30vh;
+	margin-top: 25vh;
 	color: #FFFFFF;
 	text-align: center;
 	animation-name: fadein;
 	animation-duration: 3s;
 	animation-fill-mode: forwards;
-	transition: all 10s ease;
+	transition: all 0.25s ease;
 }
 
 /* CONTENT */
@@ -148,3 +148,10 @@ body {
 .icon-linkedin:hover { color: #0077B5; }
 .icon-arrow:before { content: "\EA3E";  /* ALT: "\EA43" */ }
 .icon-arrow:hover { color: #C0C0C0; }
+
+@media screen and (max-width: 450px) {
+	.content {
+		padding-left: 10vw;
+		padding-right: 10vw;
+	}
+}
