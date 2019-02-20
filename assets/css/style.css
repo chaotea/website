@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Merriweather");
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text");
 @font-face { font-family: "icons"; src: url("../fonts/icons.ttf"); }
 
 html {
@@ -78,9 +78,9 @@ body {
 }
 
 .content h2 {
-    margin-top: 10vh;
-    font-family: "Merriweather", Helvetica, Arial, san-serif;
-    font-size: 1.5rem;
+	margin-top: 10vh;
+	margin-bottom: 1vh;
+    font-size: 2rem;
     font-weight: 700;
 }
 
@@ -137,7 +137,7 @@ body {
 .icon-facebook:before { content: "\E900"; }
 .icon-facebook:hover { color: #3B5998; }
 .icon-instagram:before { content: "\E901"; }
-.icon-instagram:hover { color: #cd486b; }
+.icon-instagram:hover { color: #CD486B; }
 .icon-twitter:before { content: "\E903"; }
 .icon-twitter:hover { color: #00ACED; }
 .icon-youtube:before { content: "\E904"; }
