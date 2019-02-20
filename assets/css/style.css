@@ -5,6 +5,7 @@ html {
 	height: 100%;
 	width: 100%;
 	margin: 0;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -37,14 +38,6 @@ body {
 	padding: 10vh 0px 0px 0px;
 }
 
-.portrait {
-	display: block;
-    width: 25%;
-	height: auto;
-	margin: auto;
-	border-radius: 50%;
-}
-
 @keyframes fadein {
     0%		{ opacity: 0; }
     100%	{ opacity: 1; }
@@ -52,7 +45,8 @@ body {
 
 .name {
 	display: block;
-	width: 40%;
+	width: 600px;
+	max-width: 80%;
 	height: auto;
 	margin: auto;
     opacity: 0;
@@ -62,50 +56,22 @@ body {
 	filter: drop-shadow(10px 10px 10px hsla(0, 0%, 0%, 0.6));
 }
 
-.links {
-	margin-top: 5vh;
-	text-align: center;
-}
-
-.links a {
+.arrow {
+	display: block;
+	margin-top: 30vh;
 	color: #FFFFFF;
-}
-
-[class*="icon"] {
-	font-family: "icons";
-	font-style: normal;
-	font-weight: normal;
-	display: inline-block;
 	text-align: center;
-	text-decoration: none;
-	font-size: 200%;
-	margin: 0.5rem;
 	animation-name: fadein;
 	animation-duration: 3s;
 	animation-fill-mode: forwards;
-	transition: all 0.25s ease;
-	filter: drop-shadow(5px 5px 10px rgba(40, 51, 79, 0.6));
+	transition: all 10s ease;
 }
-
-.icon-facebook:before { content: "\E900"; }
-.icon-facebook:hover { color: #000000; }
-.icon-instagram:before { content: "\E901"; }
-.icon-instagram:hover { color: #000000; }
-.icon-twitter:before { content: "\E903"; }
-.icon-twitter:hover { color: #000000; }
-.icon-youtube:before { content: "\E904"; }
-.icon-youtube:hover { color: #000000; }
-.icon-github:before { content: "\EAB0"; }
-.icon-github:hover { color: #000000; }
-.icon-linkedin:before { content: "\E902"; }
-.icon-linkedin:hover { color: #000000; }
-
 
 /* CONTENT */
 
 .content {
     margin: 0px;
-    padding: 20vh 25vw;
+    padding: 10vh 25vw 0px;
     background-color: #111111;
     color: #FFFFFF;
     font-size: 100%;
@@ -146,3 +112,39 @@ body {
     color: #111111;
     background-color: #FFFFFF;
 }
+
+.links {
+	margin: 15vh auto 15vh;
+	text-align: center;
+}
+
+.links a {
+	color: #FFFFFF;
+}
+
+[class*="icon"] {
+	font-family: "icons";
+	font-style: normal;
+	font-weight: normal;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	font-size: 200%;
+	margin: 0.5rem;
+	transition: all 0.25s ease;
+}
+
+.icon-facebook:before { content: "\E900"; }
+.icon-facebook:hover { color: #3B5998; }
+.icon-instagram:before { content: "\E901"; }
+.icon-instagram:hover { color: #cd486b; }
+.icon-twitter:before { content: "\E903"; }
+.icon-twitter:hover { color: #00ACED; }
+.icon-youtube:before { content: "\E904"; }
+.icon-youtube:hover { color: #FF0000; }
+.icon-github:before { content: "\EAB0"; }
+.icon-github:hover { color: #696969; }
+.icon-linkedin:before { content: "\E902"; }
+.icon-linkedin:hover { color: #0077B5; }
+.icon-arrow:before { content: "\EA3E";  /* ALT: "\EA43" */ }
+.icon-arrow:hover { color: #C0C0C0; }
