@@ -12,7 +12,7 @@ body {
 	height: 100%;
 	width: 100%;
 	margin: 0;
-	font-family: "Crimson Text", Helvetica, Arial, san-serif;
+	font-family: "Crimson Text", Helvetica, Times, serif;
 	font-size: 24px;
     background-image: linear-gradient(to top, #111111, rgba(34,21,13,0.2)), url(../images/main.jpg);
     background-size: 100% 10%, cover;
@@ -71,7 +71,7 @@ body {
 
 .content {
     margin: 0px;
-    padding: 10vh 25vw 0px;
+    padding: 10vh 25vw 15vh;
     background-color: #111111;
     color: #FFFFFF;
     font-size: 100%;
@@ -114,7 +114,7 @@ body {
 }
 
 .links {
-	margin: 15vh auto 15vh;
+	margin: 15vh auto 0px;
 	text-align: center;
 }
 
