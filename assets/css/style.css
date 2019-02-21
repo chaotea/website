@@ -146,7 +146,7 @@ body {
 .icon-github:hover { color: #696969; }
 .icon-linkedin:before { content: "\E902"; }
 .icon-linkedin:hover { color: #0077B5; }
-.icon-arrow:before { content: "\EA3E";  /* ALT: "\EA43" */ }
+.icon-arrow:before { content: "\EA3E"; }
 .icon-arrow:hover { color: #C0C0C0; }
 
 @media screen and (max-width: 450px) {
