@@ -14,10 +14,10 @@ body {
 	margin: 0;
 	font-family: "Crimson Text", Helvetica, Times, serif;
 	font-size: 24px;
-    background-image: linear-gradient(to top, #111111, rgba(34,21,13,0.2)), url(../images/main.jpg);
-    background-size: 100% 10%, cover;
-    background-repeat: no-repeat, no-repeat;
-    background-position: bottom, center;
+    background-image: url(../images/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     background-color: #111111;
 }
 
