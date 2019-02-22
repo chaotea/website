@@ -80,8 +80,8 @@ body {
 .content h1 {
 	margin: 0px;
 	padding: 0px;
+	color: #111111;
 	font-size: 1px;
-	opacity: 0;
 }
 
 .content h2 {
