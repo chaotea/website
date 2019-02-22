@@ -77,6 +77,13 @@ body {
     font-size: 100%;
 }
 
+.content h1 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 1px;
+	opacity: 0;
+}
+
 .content h2 {
 	margin-top: 10vh;
 	margin-bottom: 1vh;
@@ -113,12 +120,21 @@ body {
     background-color: #FFFFFF;
 }
 
-.links {
-	margin: 15vh auto 0px;
+.content img {
+	display: block;
+	margin: 0px auto;
+	width: 250px;
+	max-width: 60%;
+	border: 3px solid #FFFFFF;
+	border-radius: 4px;
+}
+
+#links {
+	margin: 10vh auto;
 	text-align: center;
 }
 
-.links a {
+#links a {
 	color: #FFFFFF;
 }
 
