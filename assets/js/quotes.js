@@ -94,6 +94,10 @@ const quotes = [
 		quote: "Our greatest glory is not in never falling, but in rising every time we fall.",
 		source: "<i>Confucius</i>"
 	},
+	{
+		quote: "Ask not what your country can do for you—ask what you can do for your country",
+		source: "<i>John F. Kennedy</i>"
+	},
 	// {
 	// 	quote: "Quoth the Raven, <i>Nevermore.</i>",
 	// 	source: "<i>Edgar Allan Poe</i>"
