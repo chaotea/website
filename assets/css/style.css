@@ -26,7 +26,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-	background-color: #111111;
+	background-color: #050505;
 }
 
 /* MAIN */
@@ -110,7 +110,7 @@ body {
     margin: 0px;
     padding: 10vh 25vw 15vh;
     color: #FFFFFF;
-	background-color: #111111;
+	background-color: #050505;
 }
 
 .content h2 {
@@ -145,7 +145,7 @@ body {
 }
 
 .content ul li a:hover {
-    color: #111111;
+    color: #050505;
     background-color: #FFFFFF;
 }
 
