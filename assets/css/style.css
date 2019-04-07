@@ -22,10 +22,11 @@ body {
 	margin: 0;
 	font-family: "Crimson Text", "Times New Roman", Times, serif;
 	font-size: 24px;
-	background-image: url(../images/main.jpg);
+	background-image: url(../images/fuji.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+	background-attachment: fixed;
 	background-color: #050505;
 }
 
@@ -40,9 +41,10 @@ body {
 	height: 100vh;
     width: 100vw;
 	margin: 0px;
-	animation-name: fadein;
-	animation-duration: 1s;
-	animation-fill-mode: forwards;
+	background-image: url(../images/mountain.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: bottom;
 }
 
 .inner-wrapper {
@@ -51,6 +53,8 @@ body {
 	flex-wrap: nowrap;
 	align-items: center;
 	justify-content: center;
+	animation-name: fadein;
+	animation-duration: 1s;
 }
 
 .inner-wrapper:before {
@@ -195,6 +199,9 @@ body {
 
 /* MOBILE */
 @media screen and (max-width: 450px) {
+	.body {
+		background-attachment: scroll;
+	}
 	.content {
 		padding-left: 10vw;
 		padding-right: 10vw;
