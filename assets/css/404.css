@@ -1,38 +1,45 @@
 @import url("https://fonts.googleapis.com/css?family=Dosis");
 
-html {
-    width: 100%;
+html, body {
     height: 100%;
+    width: 100%;
     margin: 0px;
-    display: table;
-    font-family: "Dosis", Helvetica, Times, serif;
-    font-size: 16px;
-    text-align: center;
 }
 
-body {
-    display: table-cell;
-    vertical-align: middle;
+div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: #111111;
+    font-family: "Dosis", Helvetica, Times, serif;
+    font-size: 16px;
 }
 
 img {
-    width: auto;
-    height: auto;
     max-height: 25vh;
 }
 
 h1 {
-    color: #111111;
-    font-size: 1.5em;
+    margin: 20px 0px 0px;
+    padding: 0px;
+    font-size: 1.5rem;
     font-weight: 400;
-    padding-top: 0.5em;
 }
 
 p {
+    margin: 10px 0px 0px;
+    padding: 0px;
     font-size: 1.2em;
 }
 
 a {
     color: #FF0000;
     text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 1px solid #FF0000;
 }

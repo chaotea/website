@@ -34,7 +34,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 	background-attachment: fixed;
-	background-color: #050505;
+	background-color: #111111;
 }
 
 .w .main {
@@ -46,7 +46,7 @@ body {
 	height: 100vh;
     width: 100vw;
 	margin: 0px;
-	background-image: url(../images/mountain.png);
+	background-image: url(../images/mountain111.png);
     background-size: cover;
     background-repeat: no-repeat;
 	background-position: bottom;
@@ -122,7 +122,7 @@ body {
     margin: 0px;
     padding: 10vh 25vw 15vh;
     color: #F0F0F0;
-	background-color: #050505;
+	background-color: #111111;
 }
 
 .w .content h2 {
@@ -157,7 +157,7 @@ body {
 }
 
 .w .content ul li a:hover {
-    color: #050505;
+    color: #111111;
     background-color: #F0F0F0;
 }
 
@@ -476,11 +476,17 @@ body {
 
 .m #contact .links .github { border-bottom: solid 2px #111111; }
 
-/* MEDIA QUERY */
+/* MEDIA QUERIES */
 
 .m { display: none; }
 
 @media screen and (max-width: 450px) {
 	.m { display: block; }
 	.w { display: none; }
+}
+
+@media screen and (max-width: 800px) {
+	.w .content {
+		padding: 10vh 10vw 15vh;
+	}
 }
