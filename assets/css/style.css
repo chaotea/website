@@ -170,12 +170,12 @@ body {
 	border-radius: 4px;
 }
 
-.w #links {
+.w .links {
 	margin: 10vh auto;
 	text-align: center;
 }
 
-.w #links a {
+.w .links a {
 	color: #F0F0F0;
 }
 
