@@ -477,6 +477,7 @@ body {
 .m #contact .links .github { border-bottom: solid 2px #111111; }
 
 /* MEDIA QUERIES */
+/* This is absolutely disgusting, I know. */
 
 .m { display: none; }
 
