@@ -6,47 +6,146 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Hello! My name is Chao Cheng. I hope you like my website!">
 	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
-<style>
-	@import url("https://fonts.googleapis.com/css?family=Roboto:400");
-
-html, body {
-	height: 100%;
-	width: 100%;
-	margin: 0px;
-}
-
-div {
-	width: 40%;
-	margin: 10vh auto 0vh;
-}
-
-p {
-	display: block;
-	width: 100%;
-	text-align: center;
-	font-family: "Roboto", Helvetica, Arial, sans-serif;
-}
-
-img {
-	display: block;
-	margin: auto;
-	max-width: 100%;
-	border-radius: 5px;
-}
-
-@media screen and (max-width: 450px) {
-	div {
-		width: 80%;
-	}
-}
-</style>
 <body>
-	<div>
-		<p>Hello! Welcome to my website 😊</p>
-		<p>At the moment, it's undergoing renovations.</p>
-		<p>I hope you enjoy this picture of a red panda instead!</p>
-		<img src="assets/images/xiaoxiongmao.jpg">
+	<div class="w">
+		<div class="main">
+			<div class="inner-wrapper">
+				<img src="assets/images/name.png">
+				<h1>CHAO CHENG</h1>
+			</div>
+			<a href="#content"><span class="arrow"></span></a>
+		</div>
+		<div class="content" id="content">
+			<div id="intro">
+				<p><b>Hi!</b> I'm Chao. I'm originally from China, but I was born in Singapore, and right now I'm living in the United States.</p>
+				<p>I'm currently studying economics and history at Hogwarts. Some of my interests include photography and watching movies, RPGs and food, and meeting new people!</p>
+			</div>
+			<div class="research">
+				<h2>Research</h2>
+				<ul>
+					<li><a href="/math">Line-Plane Incidence Bound in 4-Dimensional Space</a></li>
+					<li><a href="https://math.mit.edu/research/highschool/primes/materials/2017/conf/11-2-Cheng.pdf">MIT Primes Research</a></li>
+					<!-- <li><a href="/MIT">MIT Primes Research</a></li> -->
+				</ul>
+			</div>
+			<div class="projects">
+				<h2>Projects</h2>
+				<ul>
+					<li><a href="https://gdp.chaocheng.org">GDP Graph</a></li>
+					<li><a href="https://lolhiscores.herokuapp.com">LoL Hiscores</a></li>
+					<li><a href="https://github.com/chaotea/discord-bot">Discord Bot</a></li>
+					<li><a href="https://conquerors.chaocheng.org">The Conquerors</a></li>
+					<li><a href="https://quotes.chaocheng.org">Quotes</a></li>
+					<li><a href="https://photographs.chaocheng.org">Photographs</a></li>
+					<li><a href="https://github.com/chaotea/imessage-bot">iMessage Bot</a></li>
+				</ul>
+			</div>
+			<div class="photography">
+				<h2>Photography</h2>
+				<p>😪 Working on it!</p>
+				<!-- <a href="https://500px.com/chaotea">500px</a> -->
+			</div>
+			<div class="links">
+				<a href="https://www.facebook.com/chao4" title="Facebook"><span class="icon-facebook"></span></a>
+				<a href="https://www.instagram.com/explore/tags/chochang" title="Instagram"><span class="icon-instagram"></span></a>
+				<!-- <a href="https://twitter.com/chaotea" title="Twitter"><span class="icon-twitter"></span></a> -->				<!-- <a href="https://www.youtube.com/channel/UCHL6mwH1dBmWVJ8yAddpFng" title="YouTube"><span class="icon-youtube"></span></a> -->
+				<a href="https://www.linkedin.com/in/chao-cheng" title="LinkedIn"><span class="icon-linkedin"></span></a>
+				<a href="https://github.com/chaotea" title="GitHub"><span class="icon-github"></span></a>
+			</div>
+			<div class="picture">
+				<img src="assets/images/shizi.jpg" alt="Chao Cheng">
+			</div>
+		</div>
+	</div>
+	<div class="m">
+		<div id="main">
+			<div class="hello">
+				<h2>Hi!</h2>
+				<h1>I'm Chao (程超).</h1>
+			</div>
+			<div class="links">
+				<a class="about" href="#about" title="About">about</a>
+				<a class="research" href="#research" title="Research">research</a>
+				<a class="projects" href="#projects" title="Projects">projects</a>
+				<a class="photography" href="#photography" title="Photography">photography</a>
+				<a class="contact" href="#contact" title="Contact">contact</a>
+			</div>
+		</div>
+		<div id="about">
+			<p class="ch">你好! 我叫<span class="name">程超</span>.</p>
+			<p>Hi! My name is <span class="name">Chao</span>. I'm originally from <span class="china">China</span>, but I was born in <span class="singapore">Singapore</span>, and right now I'm living in the <span class="us">United States</span>.</p>
+			<p>I'm currently studying economics and history at <span class="harvard">Hogwarts</span>. Some of my interests include photography and watching movies, RPGs and food, and meeting new people!</p>
+			<img src="assets/images/shizi.jpg" alt="Chao Cheng">
+		</div>
+		<div id="research">
+			<h2>Research</h2>
+			<ul>
+				<li>
+					<a class="link" href="/math">Line-Plane Incidence Bound in R<sup>4</sup></a>
+					<a class="tag" href="https://student.societyforscience.org/regeneron-sts-2018-scholars">Renegeron STS Scholar</a>
+					<a class="tag" href="http://www.siemens-foundation.org/programs/siemens-competition-archives/2017/2017-semifinalists">Siemens Semifinalist</a>
+				</li>
+				<li>
+					<a class="link" href="https://math.mit.edu/research/highschool/primes/materials/2017/conf/11-2-Cheng.pdf">MIT PRIMES Research</a>
+					<a class="tag" href="https://mit.edu/primes">MIT PRIMES</a>
+					<!-- <a class="link" href="/MIT">MIT Primes Research</a> -->
+				</li>
+			</ul>
+		</div>
+		<div id="projects">
+			<h2>Projects</h2>
+			<div class="projects-wrapper">
+				<div>
+					<h4>
+						<a class="link" href="https://gdp.chaocheng.org">GDP Graph</a>
+						<a class="tag" href="https://github.com/chaotea/GDP">GitHub</a>
+					</h4>
+					<p>
+						An interactive graph comparing the nominal GDPs of countries using data from The World Bank. Uses <span class="vue">Vue.js</span>.
+					</p>
+				</div>
+				<div>
+					<h4>
+						<a class="link" href="https://lolhiscores.herokuapp.com">LoL Hiscores</a>
+						<a class="tag" href="https://github.com/chaotea/league-hiscores">GitHub</a>
+					</h4>
+					<p>
+						A leaderboard for League of Legends players. Uses <span class="django">Django</span>.
+					</p>
+				</div>
+				<div>
+					<h4>
+						<a class="link" href="https://github.com/chaotea/discord-bot">Doge: A Discord Bot</a>
+						<a class="tag" href="https://github.com/chaotea/discord-bot">GitHub</a>
+					</h4>
+					<p>
+						A WIP discord bot, named after the ever-popular internet icon. Uses <span class="node">Node.js</span>.
+					</p>
+				</div>
+				<div>
+					<h3>Some Other Stuff</h3>
+					<h4><a class="other-link" href="https://conquerors.chaocheng.org">The Conquerors</a></h4>
+					<h4><a class="other-link" href="https://quotes.chaocheng.org">Quotes</a></h4>
+					<h4><a class="other-link" href="https://photographs.chaocheng.org">Photographs</a></h4>
+				</div>
+			</div>
+		</div>
+		<div id="photography">
+			<h2>Photography</h2>
+			<!-- <a href="https://500px.com/chaotea">500px</a> -->
+			<p>😪 Working on it!</p>
+		</div>
+		<div id="contact">
+			<div class="links">
+				<a class="facebook" href="https://www.facebook.com/chao4" title="Facebook">Facebook</a>
+				<a class="instagram" href="https://www.instagram.com/explore/tags/chochang" title="Instagram">Instagram</a>
+				<a class="youtube" href="https://www.youtube.com/channel/UCHL6mwH1dBmWVJ8yAddpFng" title="YouTube">YouTube</a>
+				<a class="linkedin" href="https://www.linkedin.com/in/chao-cheng" title="LinkedIn">LinkedIn</a>
+				<a class="github" href="https://github.com/chaotea" title="GitHub">GitHub</a>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
