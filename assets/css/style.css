@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400");
 
 html {
 	height: 100%;
@@ -38,8 +38,10 @@ body {
 .name {
 	margin: 0px;
 	padding: 0px;
+	color: #111111;
 	font-family: "Montserrat", Arial, Helvetica, sans-serif;
 	font-size: 8rem;
+	font-weight: 300;
 }
 
 .menu {
@@ -56,24 +58,21 @@ body {
 	display: block;
 	margin: 0px;
 	padding: 8px 16px 8px 0px;
-	color: #000000;
 	font-family: "Montserrat", Arial, Helvetica, sans-serif;
 	font-size: 1.5rem;
+	font-weight: 400;
 	text-align: center;
 	text-decoration: none;
 }
 
-.about:hover {
-	color: #42B883;
-}
+.about { color: #42B883; }
+.about:hover { color: #111111; }
 
-.photography:hover {
-	color: #CD486B;
-}
+.photography { color: #CD486B; }
+.photography:hover { color: #111111; }
 
-.facebook:hover {
-	color: #3B5998;
-}
+.linkedin { color: #2867B2 }
+.linkedin:hover { color: #111111; }
 
 @media screen and (max-width: 450px) {
 	.name {
