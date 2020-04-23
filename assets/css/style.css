@@ -40,7 +40,7 @@ body {
 	padding: 4px;
 	color: #111111;
 	font-family: "Montserrat", Arial, Helvetica, sans-serif;
-	font-size: 8rem;
+	font-size: 4rem;
 	font-weight: 300;
 }
 
@@ -75,6 +75,8 @@ body {
 }
 
 .about { color: #42B883; }
+
+.blog { color: #551A8B; }
 
 .photography { color: #CD486B; }
 
