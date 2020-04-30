@@ -1,16 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400");
+@import url("https://fonts.googleapis.com/css?family=Manrope:300,400");
 
-html {
+html, body {
 	height: 100%;
 	width: 100%;
 	margin: 0px;
+	background-color: #FDECEF;
 	scroll-behavior: smooth;
-}
-
-body {
-	height: 100%;
-	width: 100%;
-	margin: 0px;
 }
 
 .wrapper {
@@ -19,8 +14,8 @@ body {
 	flex-wrap: nowrap;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
-	width: 100vw;
+	min-height: 100%;
+	min-width: 100%;
 	margin: 0px;
 }
 
@@ -30,23 +25,23 @@ body {
 	flex-wrap: nowrap;
 	align-items: flex-start;
 	justify-content: center;
-	height: 100vh;
-	width: 40vw;
+	height: 100%;
+	width: 40%;
 	margin: 0px;
+	font-family: "Manrope", Helvetica, sans-serif;
 }
 
 .name {
 	margin: 0px;
-	padding: 4px;
-	color: #111111;
-	font-family: "Montserrat", Arial, Helvetica, sans-serif;
+	padding: 2px;
+	color: #000;
 	font-size: 4rem;
 	font-weight: 300;
 }
 
 .menu {
 	margin: 0px;
-	padding: 2px;
+	padding: 4px;
 	list-style-type: none;
 }
 
@@ -57,32 +52,27 @@ body {
 .menu li a {
 	position: relative;
 	display: block;
-	margin-left: 10px;
-	font-family: "Montserrat", Arial, Helvetica, sans-serif;
+	margin-right: 10px;
 	font-size: 1.5rem;
 	font-weight: 400;
 	text-align: center;
 	text-decoration: none;
-	background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 2px;
-    transition: background-size .3s;
 }
 
 .menu li a:hover {
-	background-size: 100% 2px;
+	border-bottom: 2px solid;
+	margin-bottom: -2px;
 }
 
-.about { color: #42B883; }
+.about { color: #000; }
 
-.blog { color: #551A8B; }
+.blog { color: #235789; }
 
-.photography { color: #CD486B; }
+.photography { color: #CA1551; }
 
-.linkedin { color: #2867B2 }
+.linkedin { color: #006BA6; }
 
-.github { color: #333; }
+.github { color: #111111; }
 
 @media screen and (max-width: 450px) {
 	.main {
