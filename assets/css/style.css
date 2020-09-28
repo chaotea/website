@@ -4,7 +4,9 @@ html, body {
 	height: 100%;
 	width: 100%;
 	margin: 0px;
-	background-color: #FDECEF;
+	background-color: #F2E3AE;
+	background-image: url("../images/background.svg");
+	background-size: cover;
 	scroll-behavior: smooth;
 }
 
@@ -28,13 +30,14 @@ html, body {
 	height: 100%;
 	width: 40%;
 	margin: 0px;
+	padding-bottom: 160px;
 	font-family: "Manrope", Helvetica, sans-serif;
 }
 
 .name {
 	margin: 0px;
 	padding: 2px;
-	color: #000;
+	color: #343434;
 	font-size: 4rem;
 	font-weight: 300;
 }
@@ -64,15 +67,13 @@ html, body {
 	margin-bottom: -2px;
 }
 
-.about { color: #000; }
-
-.blog { color: #235789; }
+.resume { color: #06d6a0; }
 
 .photography { color: #CA1551; }
 
 .linkedin { color: #006BA6; }
 
-.github { color: #111111; }
+.github { color: #073b4c; }
 
 @media screen and (max-width: 450px) {
 	.main {
