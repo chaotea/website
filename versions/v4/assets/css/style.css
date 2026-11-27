@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+html {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	scroll-behavior: smooth;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	color: #000000;
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+
+#main {
+	height: 100vh;
+}
+
+#main .hello {
+	width: 80%;
+	margin: 10vh auto;
+	background-color: #FF3333;
+}
+
+#main h2, #main h1{
+	margin: 0px;
+	padding: 10px;
+	color: #FFFFFF;
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+#main .links {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#main a {
+	margin: 10px;
+	padding: 2px;
+	color: #000000;
+	font-size: 1.2rem;
+	text-decoration: none;
+}
+
+#main .links .about { border-bottom: solid 2px #FF3333; }
+
+#main .links .research { border-bottom: solid 2px #FFCD18; }
+
+#main .links .projects { border-bottom: solid 2px #345995; }
+
+#main .links .photography { border-bottom: solid 2px #E40066; }
+
+#main .links .contact { border-bottom: solid 2px #03CEA4; }
+
+#about {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	margin: 0px;
+	box-shadow: inset 0px 0px 0px 4px #FF3333;
+}
+
+#about p {
+	display: block;
+	width: 80%;
+	margin: 0px 0px 20px;
+	padding: 0px;
+	font-size: 1.2rem;
+}
+
+#about .ch {
+	margin-top: 40px;
+}
+
+#about .name { font-weight: 700;}
+
+#about .china { color: #FF0000;}
+
+#about .singapore { color: #F4C424;}
+
+#about .us { color: #007FFF;}
+
+#about .harvard { color: #A30020;}
+
+#about img {
+	display: block;
+	width: 80%;
+	margin: 0px 0px 40px;
+	border-radius: 10px;
+}
+
+#research {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	margin: 0px;
+	box-shadow: inset 0px 0px 0px 4px #FFCD18;
+}
+
+#research h2 {
+	width: 80%;
+	margin: 40px 0px 20px;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+#research ul {
+	width: 80%;
+	margin: 0px 0px 40px;
+	padding: 0px;
+	list-style-type: hebrew;
+	list-style-position: inside;
+}
+
+#research li {
+	margin: 10px 0px;
+	font-size: 1.5rem;
+	line-height: 1.2rem;
+}
+
+#research li .link {
+	color: inherit;
+	font-size: 1.2rem;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+#research li .tag {
+	display: inline-block;
+	margin: 4px;
+	padding: 0px 4px;
+	color: #202020;
+	font-size: 0.8rem;
+	vertical-align: middle;
+	text-decoration: none;
+	background-color: #C0C0C0;
+	border-radius: 3px;
+	white-space: nowrap;
+}
+
+#projects {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	margin: 0px;
+	box-shadow: inset 0px 0px 0px 4px #345995;
+}
+
+#projects h2 {
+	width: 80%;
+	margin: 40px 0px 20px;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+#projects .projects-wrapper {
+	margin: 0px 0px 40px;
+	width: 80%;
+}
+
+#projects h4 {
+	margin: 0px;
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+
+#projects h4 .link {
+	color: inherit;
+	font-size: 1.2rem;
+	vertical-align: middle;
+	text-decoration: none;
+	border-bottom: 1px dashed #000000;
+}
+
+#projects h4 .tag {
+	display: inline-block;
+	margin: 4px;
+	padding: 0px 4px;
+	color: #202020;
+	font-size: 0.8rem;
+	vertical-align: middle;
+	text-decoration: none;
+	background-color: #C0C0C0;
+	border-radius: 3px;
+	white-space: nowrap;
+}
+
+#projects p {
+	margin: 10px 0px 20px;
+	font-size: 0.8rem;
+}
+
+#projects .vue { color: #42B883; }
+
+#projects .django { color: #4584B6; }
+
+#projects .node { color: #026E00; }
+
+#projects h3 {
+	margin: 20px 0px 10px;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+#projects h4 .other-link {
+	margin: 5px 0px;
+	color: inherit;
+	font-size: 1.0rem;
+	text-decoration: none;
+	border-bottom: 1px dashed #000000;
+}
+
+#photography {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	margin: 0px;
+	box-shadow: inset 0px 0px 0px 4px #E40066;
+}
+
+#photography h2 {
+	width: 80%;
+	margin: 40px 0px 20px;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+#photography p {
+	width: 80%;
+	margin: 0px 0px 40px;
+}
+
+#contact {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	margin: 0px;
+	box-shadow: inset 0px 0px 0px 4px #03CEA4;
+}
+
+#contact .links {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	margin: 40px 0px;
+}
+
+#contact a {
+	margin: 10px;
+	padding: 2px;
+	color: #000000;
+	font-size: 1.0rem;
+	text-decoration: none;
+}
+
+#contact .links .facebook { border-bottom: solid 2px #3B5998; }
+
+#contact .links .instagram { border-bottom: solid 2px #CD486B; }
+
+#contact .links .youtube { border-bottom: solid 2px #FF0000; }
+
+#contact .links .linkedin { border-bottom: solid 2px #0077B5; }
+
+#contact .links .github { border-bottom: solid 2px #111111; }
